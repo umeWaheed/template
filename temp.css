@@ -1,0 +1,152 @@
+body{
+    background: url("images/img1.jpg") no-repeat fixed;
+    background-size: cover;
+    margin:0;
+    font-family: "Axure Handwriting",cursive;
+    font-size: 1.5em;
+}
+/*start header*/
+#header {
+    position: fixed;
+    z-index: 600;
+    top: 0;
+    left: 0;
+    width:100%;
+    margin:0;
+}
+.nav-tabs {
+    border-bottom: 1px solid #F5AF00;
+    text-align:center;
+    background-color: #435428;
+}
+
+.nav-tabs > li > a {
+    color:white;
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+.nav-tabs > li > a:hover {
+    background-color: #F5AF00;
+    border-color: #eee #eee #F5AF00;
+}
+/*end header*/
+
+/*start Home*/
+div#Home{
+    overflow: hidden;
+    padding: 10% 2% 2% 2%;
+    margin-bottom: 5%;
+    height: 35em;
+}
+
+h1{
+    color: white ;
+    font-size: 4.5em;
+    font-family: "Curlz MT",cursive, sans-serif;
+    background-color:rgba(242,139,0,0.4);
+    border-radius: 50%;
+    width:30%;
+    margin: auto;
+}
+
+div#Home p{
+    color: white;
+    margin-top:7%;
+    font-style: italic;
+    font-size: 2.75em;
+    line-height: 1;
+    text-align:center;
+    font-family: "French Script MT",cursive, sans-serif;
+    background-color:rgba(242,139,0,0.4);
+    border-radius: 2em;
+}
+/*end home*/
+
+/*start about*/
+div#About{
+    background-image: url("images/back1.png");
+}
+
+#About div#content{
+    padding: 3%;
+    background-color: rgba(67,84,40,0.6);
+    word-spacing: 0.2em;
+}
+
+dt{
+    display: list-item;
+    padding-top: 2%;
+    list-style-type: circle;
+}
+/*end about*/
+
+.subCat h2{
+    width:15%;
+    font-size:3em;
+    text-align: center;
+    font-family: "French Script MT",cursive, sans-serif;
+    text-decoration: white underline;
+    color: #F5AF00;
+    background-color: rgba(67,84,40,0.6);
+    margin: auto auto 5%;
+}
+
+.subCat{
+    padding:4%;
+    margin-top:10%;
+    background-color: #435428 ;
+    color: antiquewhite;
+    height: 42em;
+}
+
+/*start gallery*/
+div#Gallery{
+    background-color: rgba(150, 114, 98, 0.50);
+}
+
+div#Gallery div{
+    border-right: 0.1em solid #F4E7D1;
+    height: 75%;
+    overflow: hidden;
+    position: relative;
+}
+
+div#Gallery div img{
+    height:15em;
+    width: 20em;
+    margin-left: 5%;
+    text-align:center;
+    border-radius: 5%;
+
+}
+
+div#Gallery div img:hover{
+    filter: opacity(75%);
+}
+
+div#Gallery div img{
+    bottom: 0;
+    position: absolute;
+}
+/*end gallery*/
+
+/*start contacts*/
+div#Contact div#icons{
+   margin-bottom: 0;
+}
+
+.glyphicon {
+    line-height:1.5;
+}
+div#footer{
+    text-align:center;
+    background-color:#F5AF00;
+    margin-top:5%;
+}
+
+.bold{
+    font-weight: bold;
+}
+/*end contacts*/
